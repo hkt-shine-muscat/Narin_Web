@@ -11,7 +11,14 @@ const Main = ({ isModal, setIsModal }) => {
         <ModalContainer />
       ) : (
         <div className="chattingDiv">
-          <img src={chattingBtn} alt="" className="chattingBtn-img" />
+          <img
+            src={chattingBtn}
+            alt=""
+            className="chattingBtn-img"
+            onClick={() => {
+              setIsModal(!isModal);
+            }}
+          />
         </div>
       )}
     </>
