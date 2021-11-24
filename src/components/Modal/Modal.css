@@ -1,0 +1,177 @@
+body {
+  font-family: "Noto Sans CJK KR";
+}
+
+.ModalForm {
+  position: fixed !important;
+  z-index: 10000000 !important;
+  bottom: calc(30px + env(safe-area-inset-bottom)) !important;
+  right: 30px !important;
+  width: 370px;
+  height: 680px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: #fefefe;
+}
+.Modal-NarinDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 17px 22px 16px;
+  box-sizing: border-box;
+  height: 10%;
+}
+.Modal-NarinDiv-NarinImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  box-sizing: border-box;
+}
+.Modal-NarinDiv-NarinImg-Img {
+  width: 30px;
+}
+.Modal-NarinDiv-NarinName {
+  font-size: 1.1rem;
+  font-family: "Noto Sans CJK KR";
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: center;
+}
+.Modal-NarinDiv-Cancle {
+  width: 15px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 22px;
+}
+.Modal-NarinDiv-Cancle-Img {
+  width: 15px;
+}
+.Modal-Chatting {
+  padding: 0px 14px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 80%;
+}
+.Modal-Chatting-Chatting {
+  border-radius: 18px;
+  padding: 4px 0px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 2px 16px 1px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.Modal-SendMessage {
+  width: 100%;
+  height: 10%;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+.Modal-SendMessage-InputDiv {
+  width: 80%;
+  box-sizing: border-box;
+  height: 100%;
+  border-radius: 20px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.Modal-SendMessage-InputDiv-Input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #f1f2f6;
+  padding: 0.4rem 0.7rem;
+  font-size: 16px;
+}
+.Modal-SendMessage-Recoding {
+  width: 10%;
+  display: flex;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Modal-SendMessage-Recoding-Img {
+  width: 17px;
+  box-sizing: border-box;
+}
+.Modal-SendMessage-Send {
+  width: 10%;
+  height: 70%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Modal-SendMessage-Send-Img {
+  box-sizing: border-box;
+  width: 25px;
+}
+.Modal-SendMessage-InputDiv > input::placeholder {
+  font-size: 14px;
+}
+.Modal-Chatting-timeStamp {
+  font-size: 11px;
+  text-align: center;
+  color: #8a8d91;
+  margin-bottom: 5px;
+}
+.Modal-Chatting-NarinChat {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 6px;
+}
+
+.Modal-Chatting-NarinChat-NarinImg {
+  width: 30px;
+  padding: 0 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.Modal-Chatting-NarinChat-NarinImg-Img {
+  width: 30px;
+}
+.Modal-Chatting-NarinChat-text {
+  background-color: #f2f3f5;
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: auto;
+  color: black;
+}
+.Modal-Chatting-ClientChat {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 6px;
+}
+.Modal-Chatting-ClientChat-text {
+  background-color: #3182f7;
+  padding: 6px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: auto;
+  color: white;
+}
