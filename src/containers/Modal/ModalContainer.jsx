@@ -1,10 +1,10 @@
 import React from "react";
 import Modal from "../../components/Modal/Modal";
 
-const ModalContainer = () => {
+const ModalContainer = ({ isModal, setIsModal }) => {
   return (
     <>
-      <Modal />
+      <Modal isModal={isModal} setIsModal={setIsModal} />
     </>
   );
 };

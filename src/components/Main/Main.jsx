@@ -64,7 +64,7 @@ const Main = ({ isModal, setIsModal }) => {
         </div>
       </div>
       {isModal ? (
-        <ModalContainer />
+        <ModalContainer isModal={isModal} setIsModal={setIsModal} />
       ) : (
         <div className="chattingDiv">
           <img

@@ -4,7 +4,7 @@ import Narin from "../../assets/img/Mask Group.png";
 import Cancle from "../../assets/img/x 1.png";
 import Mic from "../../assets/img/마이크 1.png";
 import Send from "../../assets/img/보내기1 1.png";
-const Modal = () => {
+const Modal = ({ isModal, setIsModal }) => {
   return (
     <>
       <div className="ModalForm">
@@ -14,7 +14,14 @@ const Modal = () => {
           </div>
           <div className="Modal-NarinDiv-NarinName">나린</div>
           <div className="Modal-NarinDiv-Cancle">
-            <img src={Cancle} alt="" className="Modal-NarinDiv-Cancle-Img" />
+            <img
+              src={Cancle}
+              alt=""
+              className="Modal-NarinDiv-Cancle-Img"
+              onClick={() => {
+                setIsModal(!isModal);
+              }}
+            />
           </div>
         </div>
         <div className="Modal-Chatting">
