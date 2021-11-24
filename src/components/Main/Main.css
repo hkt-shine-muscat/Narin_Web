@@ -2,6 +2,113 @@ body {
   padding: 0;
   margin: 0;
   height: 200vh;
+  font-family: "Noto Sans CJK KR";
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.text {
+  padding: 75px 0 55px 0;
+  text-align: center;
+}
+
+.title {
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: -3.38px;
+}
+
+.subTitle {
+  margin: 20px auto 25px auto;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -0.7px;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  height: 649px;
+  margin-top: 10px;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+
+.imgList {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 50%;
+  width: 1100px;
+  height: 700px;
+  padding: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 320px;
+  height: 600px;
+  padding: 70px 30px 0;
+}
+
+.midWrapper {
+  width: 320px;
+  height: 600px;
+  padding-top: 10px;
+}
+
+.leftImg,
+.rightImg {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 16px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.midImg {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 16px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.intro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.introImg {
+  width: 400px;
+  height: 400px;
+}
+
+.introText1 {
+  width: 90px;
+  height: 200px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.introText2 {
+  width: 300px;
+  height: 200px;
+  padding-top: 30px;
+  font-size: 30px;
 }
 
 .chattingDiv {
@@ -15,8 +122,7 @@ body {
   border-radius: 25px;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .chattingBtn-img {
   width: 48px;
