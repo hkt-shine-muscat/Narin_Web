@@ -67,6 +67,11 @@ body {
   height: 100%;
   box-sizing: border-box;
   overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.Modal-Chatting-Chatting::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 .Modal-SendMessage {
   width: 100%;

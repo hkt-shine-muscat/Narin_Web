@@ -44,6 +44,132 @@ const Modal = ({ isModal, setIsModal }) => {
             <div className="Modal-Chatting-ClientChat">
               <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
             </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
+            <div className="Modal-Chatting-timeStamp">
+              2021.11.24(수) 오후 7:40{" "}
+            </div>
+            <div className="Modal-Chatting-NarinChat">
+              <div className="Modal-Chatting-NarinChat-NarinImg">
+                <img
+                  src={Narin}
+                  alt=""
+                  className="Modal-Chatting-NarinChat-NarinImg-Img"
+                />
+              </div>
+              <div className="Modal-Chatting-NarinChat-text">
+                안녕하세요 나린입니다!!
+              </div>
+            </div>
+            <div className="Modal-Chatting-ClientChat">
+              <div className="Modal-Chatting-ClientChat-text">안녕 나린아</div>
+            </div>
           </div>
         </div>
         <div className="Modal-SendMessage">
