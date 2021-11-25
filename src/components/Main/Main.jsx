@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Main.css";
 import chattingBtn from "../../assets/img/narin.png";
 import chatting from "../../assets/img/chat.png";
 import ModalContainer from "../../containers/Modal/ModalContainer";
+import Fade from "react-reveal/Fade";
+import "../../Model/index.js";
 
 const Main = ({ isModal, setIsModal }) => {
   return (
@@ -21,6 +23,7 @@ const Main = ({ isModal, setIsModal }) => {
             <div className="wrapper">
               <img className="leftImg" src={chatting} alt="" />
             </div>
+
             <div className="midWrapper">
               <img className="midImg" src={chatting} alt="" />
             </div>
