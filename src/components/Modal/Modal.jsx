@@ -4,6 +4,11 @@ import Narin from "../../assets/img/Mask Group.png";
 import Cancle from "../../assets/img/x 1.png";
 import Mic from "../../assets/img/마이크 1.png";
 import Send from "../../assets/img/보내기1 1.png";
+import recodeMic from "../../assets/img/premium-icon-mic-665909.png";
+import SpeechRecognition, {
+  useSpeechRecognition,
+} from "react-speech-recognition";
+import { useEffect, useState } from "react/cjs/react.development";
 
 const Modal = ({
   isModal,
@@ -14,6 +19,24 @@ const Modal = ({
   chatList,
   setChatList,
 }) => {
+  const { transcript, resetTranscript, listening } = useSpeechRecognition();
+
+  const startRec = () => {
+    SpeechRecognition.startListening();
+  };
+  const endRec = () => {
+    SpeechRecognition.stopListening();
+  };
+
+  const { isRecodeMic, setIsRecodeMic } = useState(false);
+  useEffect(() => {
+    setUserChat(transcript);
+  }, [transcript]);
+
+  if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
+    return null;
+  }
+
   return (
     <>
       <div className="ModalForm">
@@ -99,7 +122,25 @@ const Modal = ({
             />
           </div>
           <div className="Modal-SendMessage-Recoding">
-            <img src={Mic} alt="" className="Modal-SendMessage-Recoding-Img" />
+            {listening ? (
+              <img
+                src={recodeMic}
+                alt=""
+                className="Modal-SendMessage-Recoding-Img"
+                onClick={() => {
+                  endRec();
+                }}
+              />
+            ) : (
+              <img
+                src={Mic}
+                alt=""
+                className="Modal-SendMessage-Recoding-Img"
+                onClick={() => {
+                  startRec();
+                }}
+              />
+            )}
           </div>
           <div className="Modal-SendMessage-Send">
             <img
