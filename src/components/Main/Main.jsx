@@ -4,7 +4,6 @@ import chattingBtn from "../../assets/img/narin.png";
 import chatting from "../../assets/img/chat.png";
 import ModalContainer from "../../containers/Modal/ModalContainer";
 import Fade from "react-reveal/Fade";
-import "../../Model/index.js";
 
 const Main = ({ isModal, setIsModal }) => {
   return (
